@@ -22,12 +22,13 @@ public class traffic {
 
         if(repeated.equals("yes")){
         fine*=2;
+        System.out.println("fine rs-" + fine);
        
     } else{
     System.out.println(fine);
     
    }
-   System.out.println(fine);
+
    sc.close();
    
 }
